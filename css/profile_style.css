@@ -1,0 +1,14 @@
+body {
+  background-image: url('../assets/img/profile_bgimg.jpg');
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#title h2 {
+  position: fixed;
+  top: 15%;
+  color: #ffca23;
+}

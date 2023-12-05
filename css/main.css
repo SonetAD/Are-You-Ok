@@ -1,0 +1,14 @@
+body {
+  font-family: globalFont;
+}
+
+#lead {
+  display: flex;
+  justify-content: center;
+}
+#pressX {
+  position: fixed;
+  top: 90%;
+  font-size: 25px;
+  color: white;
+}

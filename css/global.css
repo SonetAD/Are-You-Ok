@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: globalFont;
+  src: url('../assets/font/graphfont.ttf');
+}
+
+body {
+  font-family: globalFont;
+  background-image: url('../assets/img/bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
