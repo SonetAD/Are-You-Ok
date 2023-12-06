@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #ffca23;
+}
+
+#missions {
+  font-size: 30px;
+  position: fixed;
+  top: 60px;
+}
+
+.missionsText {
+  display: grid;
+  justify-content: center;
+  transform: translateY(200px);
+}
+
+.missionsText p {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+#bordered {
+  border: 2px solid #ffca23;
+  opacity: 1;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+}
+
+.select p {
+  position: fixed;
+  bottom: 25%;
+  font-size: 25px;
+  border: 2px solid #ffca23;
+  padding: 10px;
+  color: #ffca23;
+}

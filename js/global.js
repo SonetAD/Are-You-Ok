@@ -10,3 +10,5 @@ function blinkingText(tag) {
     }
   }, 750);
 }
+
+let missionCount = 1;

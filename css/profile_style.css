@@ -1,5 +1,5 @@
 body {
-  background-image: url('../assets/img/profile_bgimg.jpg');
+  background-color: black;
 }
 
 #title {
@@ -11,4 +11,60 @@ body {
   position: fixed;
   top: 15%;
   color: #ffca23;
+}
+
+.userInp {
+  display: flex;
+  justify-content: center;
+  transform: translateY(13rem);
+}
+.inpWrapper div {
+  padding: 20px;
+}
+
+.userInp input {
+  font-family: globalFont;
+  color: white;
+  border: 0px;
+  padding: 12px 10px;
+  transform: translateY(-7px);
+  text-align: left;
+  font-size: 25px;
+}
+.userInp p {
+  font-size: 30px;
+  transform: translateY(5px);
+}
+
+#ageBox {
+  margin-left: 70px;
+}
+
+#nameBox {
+  margin-left: 35px;
+}
+
+#countryBox {
+  margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+}
+
+.footer h1 {
+  margin: 40px;
+  color: yellow;
+  border: 5px solid yellow;
+  padding: 10px;
+}
+
+#next:hover {
+  cursor: pointer;
+  color: white;
+  border-color: white;
 }
